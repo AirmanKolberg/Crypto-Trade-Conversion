@@ -59,8 +59,11 @@ if __name__ == '__main__':
     
     while checking_prices:
 
+        clear_screen()
+
         extra = determine_extra_coins()
         print(extra)
+        print(f'Goal: {goal_amount}')
 
         if extra >= goal_amount:
 
