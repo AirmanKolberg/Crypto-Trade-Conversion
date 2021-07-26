@@ -54,14 +54,22 @@ if __name__ == '__main__':
     clear_screen()
 
     goal_amount = get_coin_goal()
+
+    checking_prices = True
     
-    while True:
+    while checking_prices:
 
         extra = determine_extra_coins()
         print(extra)
 
         if extra >= goal_amount:
 
+            # Notify me
             twilio_text(f'Trade now!\nConversion to {extra} coins!', my_number)
             twilio_call(my_number)
+
+            # Stop updating/checking
+            checking_prices = False
         
+        # Check again in ten minutes
+        sleep(60 * 10)
