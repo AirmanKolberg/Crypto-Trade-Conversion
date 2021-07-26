@@ -13,20 +13,6 @@ def clear_screen():
     bash_command('clear')
 
 
-def verify_yes_or_no(response):
-
-    if response == 'yes' or response == 'y':
-
-        return True
-
-    elif response == 'no' or response == 'n':
-        
-        return False
-
-    else:
-        return verify_yes_or_no(input(f"{response} is neither 'yes' nor 'no', please try again: ").lower())
-
-
 def countdown(seconds):
     
     # Count down until 0 so that the last second is counted
@@ -64,4 +50,5 @@ def countdown(seconds):
 
 
 if __name__ == '__main__':
+    
     pass
