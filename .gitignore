@@ -4,3 +4,4 @@ masterCommit.json
 name_files_to_commit.py
 .DS_Store
 __pycache__/
+secrets.py
