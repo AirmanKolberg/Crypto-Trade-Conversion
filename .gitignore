@@ -1,0 +1,6 @@
+commit_and_push_all.py
+json_tools.py
+masterCommit.json
+name_files_to_commit.py
+.DS_Store
+__pycache__/
