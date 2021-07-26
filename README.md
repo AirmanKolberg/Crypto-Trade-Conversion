@@ -4,6 +4,12 @@ This simple script will allow you, through the use of the Cryptocompare and
 Twilio APIs, monitor a the price of a number of your crypto assets to notify
 you when converting X coin into Y coin will yield a Z difference.
 
+## Installation Steps
+
+1. Install all required dependencies:  `pip install -r requirements.txt`
+2. Rename `secrets_example.py` to `secrets.py` and input the proper data (see comments in file)
+3. Run the application:  `python3 app.py`, and you're all done.
+
 ---
 
 ### Donations!
