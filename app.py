@@ -1,8 +1,7 @@
-from system_functions import clear_screen
+from system_functions import clear_screen, countdown
 from twilio_functions import twilio_call, twilio_text
 from secrets import coins, my_number
 from crypto_data import get_crypto_price
-from time import sleep
 
 
 def determine_extra_coins():
@@ -75,4 +74,4 @@ if __name__ == '__main__':
             checking_prices = False
         
         # Check again in ten minutes
-        sleep(60 * 10)
+        countdown(60 * 10)
