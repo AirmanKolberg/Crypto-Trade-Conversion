@@ -10,6 +10,8 @@ you when converting X coin into Y coin will yield a Z difference.
 2. Rename `secrets_example.py` to `secrets.py` and input the proper data (see comments in file)
 3. Run the application:  `python3 app.py`, and you're all done.
 
+Feel free to adjust/update this application as you wish!
+
 ---
 
 ### Donations!
