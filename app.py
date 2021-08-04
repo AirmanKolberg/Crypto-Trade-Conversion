@@ -74,4 +74,4 @@ if __name__ == '__main__':
             checking_prices = False
         
         # Check again in ten minutes
-        countdown(60 * 10)
+        countdown(600)
